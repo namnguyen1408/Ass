@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post" id="signForm" class="login-form">
+    <h1>ĐĂNG NHẬP</h1>
+    <div class="txtb">
+        <input type="text" name="username" id="username">
+        <span data-placeholder="Username"></span>
+    </div>
+    <div class="txtb">
+        <input type="password" id="password" name="password" onblur="valitade_name()">
+        <span data-placeholder="Password"></span>
+    </div>
+    <!--<p id="error"> </p>-->
+    <input type="submit" id="btnLogin" class="logbtn" value="Login">
+    <!--<p name="error" class="error" id="error"> </p>-->
+</form>
+</body>
+</html>
